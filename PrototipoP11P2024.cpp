@@ -130,7 +130,7 @@ cout<<setw(9)<<"Nombre /"<<setw(9)<<"2010 /"<<setw(15)<<"2011/ "<< setw(9) << "2
   cout<<"------------------------------------------------------------------------------------------"<<endl;
     //for para imprimir los datos
     for(int i=0;i<CANDIDATOS;i++){
-     cout<<setw(9)<<p_inde[i].nombre<<setw(9)<<p_inde[i].V2017<<setw(15)<<p_inde[i].V2019<< setw(9) << p_inde[i].V2021 << setw(15) << p_inde[i].V2023 << setw(15) <<p_inde[i].VTOTALES <<  endl<<endl;
+     cout<<setw(9)<<p_inde[i].nombre<<setw(9)<<p_inde[i].V2010<<setw(15)<<p_inde[i].V2011<< setw(9) << p_inde[i].V2012 << setw(15) << p_inde[i].V2014 << setw(15) <<p_inde[i].MAX_PUNT <<  endl<<endl;
     }
     cout<<"el equipo con mas puntos es "<<equipo_mayor <<" con "<< votoM<<" Puntos"<<endl<<endl;
     cout<<"el equipo con menor puntos es "<<equipo_menor <<" con "<<votoMe<<" Puntos"<<endl<<endl;
